@@ -24,7 +24,7 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
-PRODUCT_NAME := ancient_davinci
+PRODUCT_NAME := aex_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
