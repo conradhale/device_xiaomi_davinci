@@ -21,8 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from davinci device
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := aex_davinci
 PRODUCT_DEVICE := davinci
