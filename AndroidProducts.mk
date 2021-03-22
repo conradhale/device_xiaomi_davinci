@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_davinci.mk
+    $(LOCAL_DIR)/evolution_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_davinci-user \
-    ancient_davinci-userdebug \
-    ancient_davinci-eng
+    evolution_davinci-user \
+    evolution_davinci-userdebug \
+    evolution_davinci-eng
